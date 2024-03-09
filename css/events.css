@@ -294,10 +294,10 @@ body {
         flex-direction: column;
     }
     .container .event_info .version1{
-        background-color: #1079c4;
+        /* background-color: #1079c4; */
     }
     .container .event_info .version1 .item{
-        background-color: #b92929;
+        /* background-color: #b92929; */
     }
     .container .event_info .version1 .item .time{
         padding: 5px 0;
@@ -306,7 +306,7 @@ body {
         padding: 0;
     }
     .container .event_info .version1 .item h1{
-        background-color: #2d7712;
+        /* background-color: #2d7712; */
         width: 100%;
     }
     .container .event_info .version1 .item{
