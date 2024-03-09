@@ -518,9 +518,20 @@ a i.fa-arrow-up {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .main-page .picture{
         display: none;
+    }
+    .main-page .logo_main{
+        width: 250px;
+        height: 139px;
+        background-image: url(../image/logo/logo.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-bottom: 20px;
     }
     .main-page .text {}
     
@@ -679,7 +690,10 @@ a i.fa-arrow-up {
     .main-page{
         padding: 0 2%;
     }
-    
+    .main-page .logo_main{
+        width: 180px;
+        height: 100px;
+    }
     .main-page .text {
     }
     
@@ -752,6 +766,9 @@ a i.fa-arrow-up {
     .Harvard-WMUN .data-number .item{
         width: 25%;
     }
+    .Harvard-WMUN .data-number .item .cal{
+        text-align: center;
+    }
     
     .Harvard-WMUN .data-number .item .calculation{
         font-size: 30px;
@@ -771,7 +788,9 @@ a i.fa-arrow-up {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
+    .Harvard-WMUN{
+        background-position: center center;
+    }
     .WorldMUN-Taipei .text{
     }
     
@@ -839,8 +858,21 @@ a i.fa-arrow-up {
 }
 
 @media(max-width:425px){
+    .main-page .logo_main{
+        width: 160px;
+        height: 88.89px;
+        background-image: url(../image/logo/logo.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-bottom: 20px;
+    }
     .container .scroll-down{
         display: none;
+    }
+}
+@media(max-width:375px){
+    .WorldMUN-Taipei .text .glitch_TP span{
+        /* font-size: 8px; */
     }
 }
 
