@@ -233,6 +233,7 @@ body {
         flex: 0;
     }
     .event_info .version1{
+        width: 100%;
         overflow-x: scroll;
         display: inline-flex;
     }
